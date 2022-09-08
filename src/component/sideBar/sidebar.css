@@ -1,0 +1,26 @@
+.sidebar-section {
+    display: flex;
+
+}
+.sidebar {
+    width: 95px;
+    height:100vh;
+    background-color: #030303da;
+    position: fixed;
+
+}
+.container-fluid {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    overflow:hidden;
+
+}
+.sidebar-expand {
+    width: 230px;
+}
+.icon-for-sidebar-expand-and-collapse {
+    display: flex;
+    align-items: right;
+    justify-content:flex-end;
+    cursor: pointer;
+}
